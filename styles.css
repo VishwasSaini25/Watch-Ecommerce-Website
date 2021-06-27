@@ -1,0 +1,498 @@
+
+.header{
+    
+    box-shadow: none;
+    background-image: linear-gradient(to right, #968c8b, #9c9291, #a29897, #a89e9d, #aea4a3, #b3a9a9, #b9afae, #beb4b4, #c4babb, #cac1c1, #d1c7c8, #d7cecf);
+    height: 100% auto;
+    margin-bottom: -60px;
+    transition: background-color 200ms ease-out 0s;
+   
+}
+.page{
+    padding: 0;
+    margin:0;
+    width: 100%;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0px;
+    padding-left: 210px;
+}
+.nav-link{
+    position: relative;
+    margin-left: 2rem;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color:#ffffff;
+    font-family: 'Geometria-Medium';
+}
+.nav-link:hover{
+    color:#fff;
+    border-bottom: 3px solid black;
+}
+.navbar-brand{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navbar-brand img{
+    display: flex;
+    width:150px;
+    height: 150px;
+    padding-bottom: 50px;
+}
+.navbar-toggler{
+    display: flex;
+    position: absolute;
+    top:50px;
+    right:20px;
+}
+.image img{
+    display: none;
+    width:150px;
+    height: 150px;
+    padding-bottom: 20px;
+}
+
+footer{
+    height: 100%;
+    overflow: hidden;
+}
+.containers{
+    padding-top: 65px;
+    background-color: #FBE7C6;
+    margin:0 auto;
+    padding:0 auto;
+    padding-left: 45px;
+    width:100%;
+    padding-bottom: 40px;
+}
+.mail h4{
+    color: #212529;
+    font-family: 'Geometria-Medium';
+}
+.mail{
+  padding-left: 35px;
+  padding-bottom: 50px;
+}
+.mail button{
+    color:#939c9e;
+    border:none;
+    background-color: #FBE7C6;
+    margin-left: -33px;
+}
+.mail input{
+    color:#939c9e;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    width:400px;
+    background-color: transparent;
+    border:none;
+    border-bottom:1px solid black;
+}
+.contacts{
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+.contacts h4{
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-family: 'Geometria-Medium';
+    
+}
+.contacts ul{
+    padding-top: 15px;
+    display: inline-flex;
+    padding-left: 0;
+}
+.contacts li{
+   
+    padding: 5px 15px;
+    background-color: #212529;
+    border-radius: 100%;
+    margin-left: 15px;
+    font-size: 30px;
+}
+.contacts li:hover{
+    background-color: #9a9c9e;
+}
+.contacts i{
+    color:#FBE7C6;
+    width:30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2{
+    padding-top: 40px;
+    padding-left: 35px;
+    
+}
+.row2 h5{
+    color: #9a9c9e;
+    font-size: 22px;
+    font-family: 'Geometria-Medium';
+    
+}
+.row2 li{
+   padding-top: 15px;
+   font-size: 15px;
+   color:#002a3a;
+   font-family: 'Geometria-Light';
+}
+.row2 li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.support,.term-of-use,.services,.languages{
+    padding-bottom: 150px;
+}
+.dropdown .btn{
+    background-color: #FBE7C6;
+    color:#000;
+}
+.india h6{
+    float: right;
+    border-bottom: 3px solid black;
+}
+.india:hover{
+    cursor: pointer;
+
+}
+.home{
+    background-color: #8e8584;
+    width: 100%;
+    height: 100%;
+}
+.carousel{
+    height: 600px;
+}
+.carousel1{
+    padding-top: 50px;
+    width:100%;
+    background-image: url(https://www.fitbit.com/global/content/dam/fitbit/global/marketing-pages/home/desktop/luxe-home-marquee.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    background-color: grey;
+}
+.carousel2{
+    padding-top: 50px;
+    width:100%;
+    background-image: url(https://www.fitbit.com/global/content/dam/fitbit/global/pdp/devices/sense/images/desktop/hero-sense-versa-three.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    background-color: grey;
+}
+.headings,.headings2{
+    padding-top:150px;
+    padding-left: 60px;
+    text-align: left;
+}
+.headings h4{
+    color:#ffffff;
+    font-size: 20px;
+    font-family: 'Geometria-Medium';
+    line-height: 1.9;
+}
+.headings h1,h3,.headings2 h1,h3{
+    color:#ffffff;
+    font-family: 'Geometria-Medium';
+    padding-bottom: 9px;
+}
+.headings h3{
+    cursor: pointer;
+}
+.headings i,.headings2 i{
+    padding-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.carousel-control-prev,.carousel-control-next{
+    width:3%;
+}
+.fitness{
+    background-color: #B4F8C8;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+.fitness h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Geometria-Medium';
+    font-weight: 500;
+    color:#212529;
+}
+.fitness h1{
+    color:#212529;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-family: 'Geometria-Bold';
+    text-align: center;
+}
+.fitness-row{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.fitness-img{
+    width: 100% auto;
+    transition: all 1s;
+}
+.fitness-img:hover{
+   
+    transform: scale(1.1);
+}
+.fitness-text{
+    padding-top: 40px;
+    text-align: left;
+}
+.fitness-text h2{
+    font-family: 'Geometria-ExtraBold';
+    color:#009eaa;
+}
+.fitness-text h5{
+    font-family: 'Geometria';
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color:#576569;
+    font-weight: 400;
+}
+.active{
+    color: black;
+    border-bottom: 2px solid #00a5ae;
+    font-family: 'Geometria-Bold';
+    text-decoration: none;
+    line-height: 1.22em;
+}
+.fitness-text a{
+    color:#576569;
+    border-bottom:  2px solid #939c9e;
+    text-decoration: none;
+    font-weight: 500;
+}
+.fitness-text li{
+    padding-top: 24px;
+    margin-left: -32px;
+    cursor: pointer;
+}
+.shop{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    overflow: hidden;
+}
+.shop h1{
+    text-align: center;
+    font-family: 'Geometria-Medium';
+    font-size: 60px;
+    letter-spacing: -2px;
+    line-height: 2;
+}
+.shop a{
+    text-align: center;
+    font-family: 'Geometria';
+    text-decoration: none;
+}
+.shop a:hover{
+    text-decoration: underline;
+}
+.row-shop img{
+    width: 50%;
+    height: 50%;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.card{
+    border:none;
+    padding-top: 80px;
+    padding-left: 100px;
+    line-height: 1.5;
+    font-family: 'Geometria';
+}
+.card-title{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Geometria-Bold';
+    font-size: 25px;
+}
+.list-group-item,.card-body{
+    border:none;
+    color:#6e6e73;
+    font-weight: 600;
+}
+.rate{
+    color:#000;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.btn{
+    background: #0071e3;
+    color:#fff;
+    border-radius: 980px;
+    cursor: pointer;
+}
+.card-body .btn:hover{
+    text-decoration: none;
+    color:#fff;
+}
+
+.animate-card{
+    animation: 1s ease slidein;
+	animation-iteration-count: 1;
+}
+@keyframes slidein{
+	from{
+		transform: translateY(250px);
+}
+	to{
+		transform: translateY(0);
+	}
+}
+.animate-fitness-image{
+    animation: 1s ease slideleft;
+	animation-iteration-count: 1;
+}
+@keyframes slideleft{
+	from{
+		transform: translateX(-250px);
+}
+	to{
+		transform: translateX(0);
+	}
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 980px) {
+    .navbar-brand{
+        display: none;
+    }
+    .image img{
+        display: block;
+    }
+}
+
+@media screen and (max-width:1011px) {
+    .headings h1,.headings2 h1{
+        width: 40%;
+    }
+}
+@media screen and (max-width:980px){
+    .fitness-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fitness-text{
+        text-align: center;
+    }
+}
+@media screen and (max-width:560px){
+
+        .headings{
+            margin-top:300px;
+            
+        }
+        .headings h1,h4,h3{
+            width:100%;
+            overflow-y: visible;
+            color:#000;
+        }
+        .carousel1{
+            height: 700px;
+        }
+}
+@media  screen and (max-width:482px) {
+        .mail input{
+            width:200px;
+        }
+        .contacts ul{
+            display:block;
+        }
+        .contacts li{
+            width:60px;
+        }
+}      
+
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Geometria'), url('geometria-cufonfonts-webfont/Geometria.woff') format('woff');
+    }
+    
+    @font-face {
+    font-family: 'Geometria-Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Geometria-Thin'), url('geometria-cufonfonts-webfont/Geometria-Thin.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Geometria-ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Geometria-ExtraLight'), url('geometria-cufonfonts-webfont/Geometria-ExtraLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Geometria-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Geometria-Light'), url('geometria-cufonfonts-webfont/Geometria-Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Geometria-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Geometria-Medium'), url('geometria-cufonfonts-webfont/Geometria-Medium.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'Geometria-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Geometria-Bold'), url('geometria-cufonfonts-webfont/Geometria-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Geometria-ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Geometria-ExtraBold'), url('geometria-cufonfonts-webfont/Geometria-ExtraBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Geometria-Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Geometria-Heavy'), url('geometria-cufonfonts-webfont/Geometria-Heavy.woff') format('woff');
+    }
+    
